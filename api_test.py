@@ -80,7 +80,7 @@ for i in one_call_three_days_ago.forecast_hourly:
         temp["ref_time"]).strftime('%Y-%m-%d %H:%M:%S')
     pprint(temp)
 
-    with open("historical_data.txt", "a", encoding="utf-8") as output_2:
+    with open("historical_data.json", "a", encoding="utf-8") as output_2:
         json.dump(temp, output_2, indent=2)
 
 print("One call data for 7 days:\n ")
@@ -97,5 +97,5 @@ for i in one_call.forecast_daily:
         temp["sset_time"]).strftime('%Y-%m-%d %H:%M:%S')
     pprint(temp)
 
-    with open("forecast_data.txt", "a", encoding="utf-8") as output_3:
+    with open("forecast_data.json", "a", encoding="utf-8") as output_3:
         json.dump(temp, output_3, indent=2)
