@@ -1,327 +1,334 @@
-{
-  "ref_time": "2021-04-03 10:00:00",
-  "sset_time": "2021-04-03 16:57:43",
-  "srise_time": "2021-04-03 03:56:12",
-  "clouds": 64,
-  "rain": {
-    "all": 0.28
+[
+  {
+    "ref_time": "2021-04-03 10:00:00",
+    "sset_time": "2021-04-03 16:57:43",
+    "srise_time": "2021-04-03 03:56:12",
+    "clouds": 36,
+    "rain": {
+      "all": 0.76
+    },
+    "snow": {},
+    "wnd": {
+      "speed": 3.27,
+      "deg": 322
+    },
+    "humidity": 40,
+    "pressure": {
+      "press": 1012,
+      "sea_level": null
+    },
+    "temp": {
+      "day": 8.55,
+      "min": 1.8,
+      "max": 9.21,
+      "night": 3.74,
+      "eve": 5.46,
+      "morn": 1.85,
+      "feels_like_day": 6.61,
+      "feels_like_night": 1.85,
+      "feels_like_eve": 1.99,
+      "feels_like_morn": 1.85
+    },
+    "status": "Rain",
+    "detailed_status": "light rain",
+    "weather_code": 500,
+    "weather_icon_name": "10d",
+    "visibility_distance": null,
+    "dewpoint": -3.78,
+    "humidex": null,
+    "heat_index": null,
+    "utc_offset": null,
+    "uvi": 2.61,
+    "precipitation_probability": 0.77
   },
-  "snow": {},
-  "wnd": {
-    "speed": 3.36,
-    "deg": 327
+  {
+    "ref_time": "2021-04-04 10:00:00",
+    "sset_time": "2021-04-04 16:59:16",
+    "srise_time": "2021-04-04 03:54:03",
+    "clouds": 82,
+    "rain": {},
+    "snow": {
+      "all": 0.13
+    },
+    "wnd": {
+      "speed": 4.02,
+      "deg": 344
+    },
+    "humidity": 53,
+    "pressure": {
+      "press": 1019,
+      "sea_level": null
+    },
+    "temp": {
+      "day": 5.59,
+      "min": -0.87,
+      "max": 6.71,
+      "night": 0.86,
+      "eve": 5.14,
+      "morn": -0.87,
+      "feels_like_day": 2.57,
+      "feels_like_night": -4.21,
+      "feels_like_eve": 2.25,
+      "feels_like_morn": -4.21
+    },
+    "status": "Snow",
+    "detailed_status": "light snow",
+    "weather_code": 600,
+    "weather_icon_name": "13d",
+    "visibility_distance": null,
+    "dewpoint": -3.12,
+    "humidex": null,
+    "heat_index": null,
+    "utc_offset": null,
+    "uvi": 2.51,
+    "precipitation_probability": 0.55
   },
-  "humidity": 39,
-  "pressure": {
-    "press": 1012,
-    "sea_level": null
+  {
+    "ref_time": "2021-04-05 10:00:00",
+    "sset_time": "2021-04-05 17:00:49",
+    "srise_time": "2021-04-05 03:51:54",
+    "clouds": 2,
+    "rain": {},
+    "snow": {},
+    "wnd": {
+      "speed": 8.27,
+      "deg": 233
+    },
+    "humidity": 44,
+    "pressure": {
+      "press": 1006,
+      "sea_level": null
+    },
+    "temp": {
+      "day": 9,
+      "min": -0.71,
+      "max": 10.33,
+      "night": 7.61,
+      "eve": 7.96,
+      "morn": -0.71,
+      "feels_like_day": 5.3,
+      "feels_like_night": -4.74,
+      "feels_like_eve": 3.86,
+      "feels_like_morn": -4.74
+    },
+    "status": "Clear",
+    "detailed_status": "clear sky",
+    "weather_code": 800,
+    "weather_icon_name": "01d",
+    "visibility_distance": null,
+    "dewpoint": -2.54,
+    "humidex": null,
+    "heat_index": null,
+    "utc_offset": null,
+    "uvi": 3.58,
+    "precipitation_probability": 0
   },
-  "temp": {
-    "day": 8.34,
-    "min": 1.83,
-    "max": 9.07,
-    "night": 3.79,
-    "eve": 6.32,
-    "morn": 2.13,
-    "feels_like_day": 6.3,
-    "feels_like_night": 2.13,
-    "feels_like_eve": 3.43,
-    "feels_like_morn": 2.13
+  {
+    "ref_time": "2021-04-06 10:00:00",
+    "sset_time": "2021-04-06 17:02:22",
+    "srise_time": "2021-04-06 03:49:46",
+    "clouds": 100,
+    "rain": {
+      "all": 0.41
+    },
+    "snow": {
+      "all": 2.83
+    },
+    "wnd": {
+      "speed": 3.81,
+      "deg": 269
+    },
+    "humidity": 67,
+    "pressure": {
+      "press": 1007,
+      "sea_level": null
+    },
+    "temp": {
+      "day": 1.57,
+      "min": -1.02,
+      "max": 7.48,
+      "night": 0.69,
+      "eve": 3.08,
+      "morn": -1.02,
+      "feels_like_day": -2.23,
+      "feels_like_night": -6.27,
+      "feels_like_eve": 0.14,
+      "feels_like_morn": -6.27
+    },
+    "status": "Snow",
+    "detailed_status": "rain and snow",
+    "weather_code": 616,
+    "weather_icon_name": "13d",
+    "visibility_distance": null,
+    "dewpoint": -3.7,
+    "humidex": null,
+    "heat_index": null,
+    "utc_offset": null,
+    "uvi": 2,
+    "precipitation_probability": 1
   },
-  "status": "Rain",
-  "detailed_status": "light rain",
-  "weather_code": 500,
-  "weather_icon_name": "10d",
-  "visibility_distance": null,
-  "dewpoint": -4.25,
-  "humidex": null,
-  "heat_index": null,
-  "utc_offset": null,
-  "uvi": 2.61,
-  "precipitation_probability": 0.31
-}{
-  "ref_time": "2021-04-04 10:00:00",
-  "sset_time": "2021-04-04 16:59:16",
-  "srise_time": "2021-04-04 03:54:03",
-  "clouds": 97,
-  "rain": {
-    "all": 0.1
+  {
+    "ref_time": "2021-04-07 10:00:00",
+    "sset_time": "2021-04-07 17:03:55",
+    "srise_time": "2021-04-07 03:47:39",
+    "clouds": 100,
+    "rain": {},
+    "snow": {
+      "all": 2.2
+    },
+    "wnd": {
+      "speed": 6.12,
+      "deg": 306
+    },
+    "humidity": 55,
+    "pressure": {
+      "press": 1007,
+      "sea_level": null
+    },
+    "temp": {
+      "day": 2.9,
+      "min": -0.69,
+      "max": 4.26,
+      "night": -0.69,
+      "eve": 3.05,
+      "morn": -0.59,
+      "feels_like_day": -1.82,
+      "feels_like_night": -3.3,
+      "feels_like_eve": -1.43,
+      "feels_like_morn": -3.3
+    },
+    "status": "Snow",
+    "detailed_status": "light snow",
+    "weather_code": 600,
+    "weather_icon_name": "13d",
+    "visibility_distance": null,
+    "dewpoint": -5.11,
+    "humidex": null,
+    "heat_index": null,
+    "utc_offset": null,
+    "uvi": 2.6,
+    "precipitation_probability": 0.93
   },
-  "snow": {
-    "all": 0.39
+  {
+    "ref_time": "2021-04-08 10:00:00",
+    "sset_time": "2021-04-08 17:05:28",
+    "srise_time": "2021-04-08 03:45:31",
+    "clouds": 95,
+    "rain": {},
+    "snow": {
+      "all": 0.48
+    },
+    "wnd": {
+      "speed": 8.94,
+      "deg": 286
+    },
+    "humidity": 63,
+    "pressure": {
+      "press": 1020,
+      "sea_level": null
+    },
+    "temp": {
+      "day": 4.09,
+      "min": -1.68,
+      "max": 4.52,
+      "night": 1.79,
+      "eve": 4.52,
+      "morn": -1.24,
+      "feels_like_day": -1.31,
+      "feels_like_night": -6.97,
+      "feels_like_eve": -0.33,
+      "feels_like_morn": -6.97
+    },
+    "status": "Snow",
+    "detailed_status": "light snow",
+    "weather_code": 600,
+    "weather_icon_name": "13d",
+    "visibility_distance": null,
+    "dewpoint": -2.23,
+    "humidex": null,
+    "heat_index": null,
+    "utc_offset": null,
+    "uvi": 3,
+    "precipitation_probability": 0.73
   },
-  "wnd": {
-    "speed": 3.89,
-    "deg": 325
+  {
+    "ref_time": "2021-04-09 10:00:00",
+    "sset_time": "2021-04-09 17:07:02",
+    "srise_time": "2021-04-09 03:43:25",
+    "clouds": 100,
+    "rain": {},
+    "snow": {},
+    "wnd": {
+      "speed": 5.5,
+      "deg": 279
+    },
+    "humidity": 66,
+    "pressure": {
+      "press": 1028,
+      "sea_level": null
+    },
+    "temp": {
+      "day": 6.8,
+      "min": 1.36,
+      "max": 8.23,
+      "night": 3.98,
+      "eve": 8.23,
+      "morn": 1.89,
+      "feels_like_day": 3.38,
+      "feels_like_night": -2.84,
+      "feels_like_eve": 6.56,
+      "feels_like_morn": -2.84
+    },
+    "status": "Clouds",
+    "detailed_status": "overcast clouds",
+    "weather_code": 804,
+    "weather_icon_name": "04d",
+    "visibility_distance": null,
+    "dewpoint": 1.08,
+    "humidex": null,
+    "heat_index": null,
+    "utc_offset": null,
+    "uvi": 3,
+    "precipitation_probability": 0.16
   },
-  "humidity": 57,
-  "pressure": {
-    "press": 1019,
-    "sea_level": null
-  },
-  "temp": {
-    "day": 5.2,
-    "min": -0.56,
-    "max": 6.39,
-    "night": 1.11,
-    "eve": 5.14,
-    "morn": -0.56,
-    "feels_like_day": 2.17,
-    "feels_like_night": -3.94,
-    "feels_like_eve": 2.56,
-    "feels_like_morn": -3.94
-  },
-  "status": "Snow",
-  "detailed_status": "rain and snow",
-  "weather_code": 616,
-  "weather_icon_name": "13d",
-  "visibility_distance": null,
-  "dewpoint": -2.48,
-  "humidex": null,
-  "heat_index": null,
-  "utc_offset": null,
-  "uvi": 2.51,
-  "precipitation_probability": 0.67
-}{
-  "ref_time": "2021-04-05 10:00:00",
-  "sset_time": "2021-04-05 17:00:49",
-  "srise_time": "2021-04-05 03:51:54",
-  "clouds": 18,
-  "rain": {},
-  "snow": {},
-  "wnd": {
-    "speed": 7.81,
-    "deg": 232
-  },
-  "humidity": 44,
-  "pressure": {
-    "press": 1006,
-    "sea_level": null
-  },
-  "temp": {
-    "day": 8.94,
-    "min": -0.62,
-    "max": 10.13,
-    "night": 6.82,
-    "eve": 7.93,
-    "morn": -0.62,
-    "feels_like_day": 5.35,
-    "feels_like_night": -4.48,
-    "feels_like_eve": 4,
-    "feels_like_morn": -4.48
-  },
-  "status": "Clouds",
-  "detailed_status": "few clouds",
-  "weather_code": 801,
-  "weather_icon_name": "02d",
-  "visibility_distance": null,
-  "dewpoint": -2.39,
-  "humidex": null,
-  "heat_index": null,
-  "utc_offset": null,
-  "uvi": 3.58,
-  "precipitation_probability": 0
-}{
-  "ref_time": "2021-04-06 10:00:00",
-  "sset_time": "2021-04-06 17:02:22",
-  "srise_time": "2021-04-06 03:49:46",
-  "clouds": 100,
-  "rain": {},
-  "snow": {
-    "all": 1.02
-  },
-  "wnd": {
-    "speed": 3.42,
-    "deg": 272
-  },
-  "humidity": 59,
-  "pressure": {
-    "press": 1008,
-    "sea_level": null
-  },
-  "temp": {
-    "day": 1.79,
-    "min": -0.68,
-    "max": 6.82,
-    "night": 1.18,
-    "eve": 3.63,
-    "morn": -0.68,
-    "feels_like_day": -1.68,
-    "feels_like_night": -5.42,
-    "feels_like_eve": 2.1,
-    "feels_like_morn": -5.42
-  },
-  "status": "Snow",
-  "detailed_status": "light snow",
-  "weather_code": 600,
-  "weather_icon_name": "13d",
-  "visibility_distance": null,
-  "dewpoint": -5.31,
-  "humidex": null,
-  "heat_index": null,
-  "utc_offset": null,
-  "uvi": 2,
-  "precipitation_probability": 0.93
-}{
-  "ref_time": "2021-04-07 10:00:00",
-  "sset_time": "2021-04-07 17:03:55",
-  "srise_time": "2021-04-07 03:47:39",
-  "clouds": 100,
-  "rain": {},
-  "snow": {
-    "all": 3.48
-  },
-  "wnd": {
-    "speed": 6.73,
-    "deg": 312
-  },
-  "humidity": 62,
-  "pressure": {
-    "press": 1005,
-    "sea_level": null
-  },
-  "temp": {
-    "day": 2.28,
-    "min": -0.68,
-    "max": 4.28,
-    "night": -0.68,
-    "eve": 3.64,
-    "morn": -0.19,
-    "feels_like_day": -2.87,
-    "feels_like_night": -4.13,
-    "feels_like_eve": -0.89,
-    "feels_like_morn": -4.13
-  },
-  "status": "Snow",
-  "detailed_status": "light snow",
-  "weather_code": 600,
-  "weather_icon_name": "13d",
-  "visibility_distance": null,
-  "dewpoint": -4.23,
-  "humidex": null,
-  "heat_index": null,
-  "utc_offset": null,
-  "uvi": 2.6,
-  "precipitation_probability": 0.97
-}{
-  "ref_time": "2021-04-08 10:00:00",
-  "sset_time": "2021-04-08 17:05:28",
-  "srise_time": "2021-04-08 03:45:31",
-  "clouds": 98,
-  "rain": {},
-  "snow": {
-    "all": 3.91
-  },
-  "wnd": {
-    "speed": 8.59,
-    "deg": 294
-  },
-  "humidity": 74,
-  "pressure": {
-    "press": 1016,
-    "sea_level": null
-  },
-  "temp": {
-    "day": 3.64,
-    "min": -0.21,
-    "max": 4.26,
-    "night": 0.59,
-    "eve": 3.6,
-    "morn": -0.14,
-    "feels_like_day": -1.79,
-    "feels_like_night": -5.8,
-    "feels_like_eve": -1.53,
-    "feels_like_morn": -5.8
-  },
-  "status": "Snow",
-  "detailed_status": "snow",
-  "weather_code": 601,
-  "weather_icon_name": "13d",
-  "visibility_distance": null,
-  "dewpoint": -0.39,
-  "humidex": null,
-  "heat_index": null,
-  "utc_offset": null,
-  "uvi": 3,
-  "precipitation_probability": 1
-}{
-  "ref_time": "2021-04-09 10:00:00",
-  "sset_time": "2021-04-09 17:07:02",
-  "srise_time": "2021-04-09 03:43:25",
-  "clouds": 91,
-  "rain": {},
-  "snow": {},
-  "wnd": {
-    "speed": 6.99,
-    "deg": 261
-  },
-  "humidity": 67,
-  "pressure": {
-    "press": 1027,
-    "sea_level": null
-  },
-  "temp": {
-    "day": 5.34,
-    "min": -1.89,
-    "max": 6.76,
-    "night": 2.86,
-    "eve": 6.76,
-    "morn": -1.89,
-    "feels_like_day": 0.95,
-    "feels_like_night": -6.28,
-    "feels_like_eve": 3.63,
-    "feels_like_morn": -6.28
-  },
-  "status": "Clouds",
-  "detailed_status": "overcast clouds",
-  "weather_code": 804,
-  "weather_icon_name": "04d",
-  "visibility_distance": null,
-  "dewpoint": -0.25,
-  "humidex": null,
-  "heat_index": null,
-  "utc_offset": null,
-  "uvi": 3,
-  "precipitation_probability": 0
-}{
-  "ref_time": "2021-04-10 10:00:00",
-  "sset_time": "2021-04-10 17:08:35",
-  "srise_time": "2021-04-10 03:41:19",
-  "clouds": 100,
-  "rain": {
-    "all": 0.14
-  },
-  "snow": {},
-  "wnd": {
-    "speed": 5.28,
-    "deg": 180
-  },
-  "humidity": 57,
-  "pressure": {
-    "press": 1027,
-    "sea_level": null
-  },
-  "temp": {
-    "day": 9.25,
-    "min": 1.3,
-    "max": 11.4,
-    "night": 6.19,
-    "eve": 10.75,
-    "morn": 1.84,
-    "feels_like_day": 6.54,
-    "feels_like_night": -1.74,
-    "feels_like_eve": 9.5,
-    "feels_like_morn": -1.74
-  },
-  "status": "Rain",
-  "detailed_status": "light rain",
-  "weather_code": 500,
-  "weather_icon_name": "10d",
-  "visibility_distance": null,
-  "dewpoint": 1.23,
-  "humidex": null,
-  "heat_index": null,
-  "utc_offset": null,
-  "uvi": 3,
-  "precipitation_probability": 0.2
-}
+  {
+    "ref_time": "2021-04-10 10:00:00",
+    "sset_time": "2021-04-10 17:08:35",
+    "srise_time": "2021-04-10 03:41:19",
+    "clouds": 96,
+    "rain": {},
+    "snow": {},
+    "wnd": {
+      "speed": 5.18,
+      "deg": 180
+    },
+    "humidity": 50,
+    "pressure": {
+      "press": 1027,
+      "sea_level": null
+    },
+    "temp": {
+      "day": 10.92,
+      "min": 2.91,
+      "max": 13.14,
+      "night": 8.46,
+      "eve": 12.39,
+      "morn": 3.39,
+      "feels_like_day": 9.37,
+      "feels_like_night": -0.09,
+      "feels_like_eve": 11.09,
+      "feels_like_morn": -0.09
+    },
+    "status": "Clouds",
+    "detailed_status": "overcast clouds",
+    "weather_code": 804,
+    "weather_icon_name": "04d",
+    "visibility_distance": null,
+    "dewpoint": 1.04,
+    "humidex": null,
+    "heat_index": null,
+    "utc_offset": null,
+    "uvi": 3,
+    "precipitation_probability": 0
+  }
+]

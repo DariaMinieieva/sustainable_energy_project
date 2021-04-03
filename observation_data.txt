@@ -1,9 +1,9 @@
 Status:
 clear sky
 Wind speed:
-1.72
+1
 Wind degree:
-319
+0
 Sunrise time:
 2021-04-03 03:56:14+00:00
 Sunset time:

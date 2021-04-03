@@ -15,7 +15,7 @@ ADDRESS = "Lviv, Ukraine"
 geolocator = Nominatim(user_agent="Weather")
 location = geolocator.geocode(ADDRESS)
 
-owm = OWM('d84c6b6db6edee8d87f4a5396c561285')
+owm = OWM('api-key')
 mgr = owm.weather_manager()
 
 observation = mgr.weather_at_place(ADDRESS)
@@ -74,19 +74,23 @@ three_days_ago_epoch = int(
 
 one_call_three_days_ago = mgr.one_call_history(
     lat=location.latitude, lon=location.longitude, dt=three_days_ago_epoch)
+
+res_list = []
 for i in one_call_three_days_ago.forecast_hourly:
     temp = i.__dict__
     temp["ref_time"] = datetime.utcfromtimestamp(
         temp["ref_time"]).strftime('%Y-%m-%d %H:%M:%S')
     pprint(temp)
+    res_list.append(temp)
 
-    with open("historical_data.json", "a", encoding="utf-8") as output_2:
-        json.dump(temp, output_2, indent=2)
+with open("historical_data.json", "a", encoding="utf-8") as output_2:
+    json.dump(res_list, output_2, indent=2)
 
 print("One call data for 7 days:\n ")
 one_call = mgr.one_call(lat=location.latitude,
                         lon=location.longitude, units="metric")
 
+res_list_2 = []
 for i in one_call.forecast_daily:
     temp = i.__dict__
     temp["ref_time"] = datetime.utcfromtimestamp(
@@ -96,6 +100,7 @@ for i in one_call.forecast_daily:
     temp["sset_time"] = datetime.utcfromtimestamp(
         temp["sset_time"]).strftime('%Y-%m-%d %H:%M:%S')
     pprint(temp)
+    res_list_2.append(temp)
 
-    with open("forecast_data.json", "a", encoding="utf-8") as output_3:
-        json.dump(temp, output_3, indent=2)
+with open("forecast_data.json", "a", encoding="utf-8") as output_3:
+    json.dump(res_list_2, output_3, indent=2)
