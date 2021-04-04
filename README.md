@@ -14,3 +14,4 @@ This project will help people to determine places with the most suitable weather
 4. Daria Minieieva
 
 ## License
+Sustainable Energy Project is available under MIT license. See LICENSE for more information.
