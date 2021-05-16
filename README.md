@@ -27,35 +27,34 @@ The purpose of the program is to simplify a search for a place to install an alt
 
 1. Home page
 ![](images/mainpage.png)
-[[https://github.com/DariaMinieieva/sustainable_energy_project/blob/main/images/mainpage.png]]
 
 2. About us page
-[[https://github.com/DariaMinieieva/sustainable_energy_project/blob/main/images/about_us.png]]
+3. ![](images/about_us.png)
 
 3. Contact us page
-[[https://github.com/DariaMinieieva/sustainable_energy_project/blob/main/images/contact_us.png]]
+4. ![](images/contact_us.png)
 
 4. Usage example for solar panels
 
 Main page for solar panels
-[[https://github.com/DariaMinieieva/sustainable_energy_project/blob/main/images/solar_panels.png]]
+![](images/solar_panels.png)
 
 Interactive map with all locations and the best option chosen
-[[https://github.com/DariaMinieieva/sustainable_energy_project/blob/main/images/solar_map.png]]
+![](images/solar_map.png)
 
 Results in .txt format
-[[https://github.com/DariaMinieieva/sustainable_energy_project/blob/main/images/solar_panels_txt.png]]
+![](images/solar_panels_txt.png)
 
 5. Usage example for wind turbines
 
 Main page for wind turbines
-[[https://github.com/DariaMinieieva/sustainable_energy_project/blob/main/images/turbines.png]]
+![](images/turbines.png)
 
 Interactive map with all locations and the best option for turbine's location and direction chosen
-[[https://github.com/DariaMinieieva/sustainable_energy_project/blob/main/images/wind_map.png]]
+![](images/wind_map.png)
 
 Results in .txt format
-[[https://github.com/DariaMinieieva/sustainable_energy_project/blob/main/images/turbines_txt.png]]
+![](images/turbines_txt.png)
 
 ## TESTS’ DESCRIPTION
 
