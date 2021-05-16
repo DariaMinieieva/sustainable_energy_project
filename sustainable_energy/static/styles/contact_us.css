@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+
+body {
+    background-color: black;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/city.jpg);
+    background-size: cover;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.navbar {
+    margin-top: 2%;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.navbar-button {
+    height: 30px;
+    padding: 0 15px;
+    text-align: center;
+    color: #ffffff;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+
+.navbar-button:hover {
+    border: 1px solid #ffffff;
+}
+
+.navbar-button-selected {
+    height: 30px;
+    padding: 0 15px;
+    text-align: center;
+    color: #ffffff;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+
+    border: 1px solid #ffffff;
+}
+
+.logo {
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 70px;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+
+.people {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.person-profile {
+    width: 330px;
+    height: 410px;
+    color: #fff;
+    background: transparent linear-gradient(45deg, rgba(245, 247, 245, 0.137), rgba(247, 248, 246, 0.548));
+    margin: 0 30px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.person-profile h3 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    margin-bottom: 10px;
+
+}
+
+.person-profile p {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px; 
+    line-height: 6mm;
+
+}
+
+.person-profile img {
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+    margin-bottom: 3%;
+}
+
+.person-profile .contact-info {
+    display: flex;
+    font-size: 15px;
+    align-items: center;
+    flex-direction: column;
+}
+.person-profile .contact-info img {
+    height: 25px;
+    width: auto;
+    margin-right: 5%;
+}
+
+.person-profile .contact-info .contact {
+    display: flex;
+    align-items: center;
+}

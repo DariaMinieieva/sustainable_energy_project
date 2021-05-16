@@ -1,0 +1,115 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+body
+{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/renewable-energy.jpg);
+    /* background-position-x: -200px; */
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    align-self: flex-end;
+
+}
+
+.navbar-button {
+    height: 30px;
+    padding: 0 15px;
+    text-align: center;
+    color: #ffffff;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+
+.navbar-button:hover {
+    border: 1px solid #ffffff;
+}
+
+.navbar-button-selected {
+    height: 30px;
+    padding: 0 15px;
+    text-align: center;
+    color: #ffffff;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+
+    border: 1px solid #ffffff;
+}
+
+h1
+{
+    color: white;
+    text-transform: uppercase;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 80px;
+    text-align: center;
+}
+
+
+.main-part 
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2%;
+}
+
+.logo 
+{
+    color: white;
+    text-transform: uppercase;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 80px;
+    margin-bottom: 2%;
+}
+
+
+.boxes {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.box {
+    width: 350px;
+    height: 370px;
+    color: #fff;
+    background: transparent linear-gradient(45deg, rgba(245, 247, 245, 0.274), rgba(247, 248, 246, 0.548));
+    margin: 0 30px;
+    padding: 30px;
+}
+
+.box h3 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    margin-bottom: 10px;
+
+}
+
+
+.box p {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px; 
+    line-height: 6mm;
+
+}

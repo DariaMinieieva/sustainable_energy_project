@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_cc2b938b8ad84bee90a8e80dcf62b80f {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_cc2b938b8ad84bee90a8e80dcf62b80f" ></div>
+        
+</body>
+<script>    
+    
+            var map_cc2b938b8ad84bee90a8e80dcf62b80f = L.map(
+                "map_cc2b938b8ad84bee90a8e80dcf62b80f",
+                {
+                    center: [50.0, 12.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_2a5fb6afac724f3999e93cbd9d6d922e = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_cc2b938b8ad84bee90a8e80dcf62b80f);
+        
+    
+            var feature_group_d1cf50ddb4ad48ebb70bb61ba83629f1 = L.featureGroup(
+                {}
+            ).addTo(map_cc2b938b8ad84bee90a8e80dcf62b80f);
+        
+    
+            var marker_56f95ad911364ba189e016b716b8c826 = L.marker(
+                [51.79664099067377, 12.000000000000002],
+                {}
+            ).addTo(feature_group_d1cf50ddb4ad48ebb70bb61ba83629f1);
+        
+    
+            var icon_be7fdc4d3cd64bf0a6410906b1311e1f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_56f95ad911364ba189e016b716b8c826.setIcon(icon_be7fdc4d3cd64bf0a6410906b1311e1f);
+        
+    
+        var popup_e321b8f29a2148439c3cbc4eb6e22c2e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ca5b720be93846bda6beec6bd85a878c = $(`<div id="html_ca5b720be93846bda6beec6bd85a878c" style="width: 100.0%; height: 100.0%;">The best option Efficiency: 1.125 Recomended turbine direction: northeast</div>`)[0];
+            popup_e321b8f29a2148439c3cbc4eb6e22c2e.setContent(html_ca5b720be93846bda6beec6bd85a878c);
+        
+
+        marker_56f95ad911364ba189e016b716b8c826.bindPopup(popup_e321b8f29a2148439c3cbc4eb6e22c2e)
+        ;
+
+        
+    
+    
+            var marker_4e1b4ba1662f45ebbb91afeba440fa9f = L.marker(
+                [50.0, 12.0],
+                {}
+            ).addTo(feature_group_d1cf50ddb4ad48ebb70bb61ba83629f1);
+        
+    
+            var icon_3fb18355b19e4ae8bd069282a73af709 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4e1b4ba1662f45ebbb91afeba440fa9f.setIcon(icon_3fb18355b19e4ae8bd069282a73af709);
+        
+    
+        var popup_4b5ab43a7e5140ea807c595406ba6fc2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_796e247234c84542a00079aab9701a6d = $(`<div id="html_796e247234c84542a00079aab9701a6d" style="width: 100.0%; height: 100.0%;">Efficiency: 1.0 Recomended turbine direction: northeast</div>`)[0];
+            popup_4b5ab43a7e5140ea807c595406ba6fc2.setContent(html_796e247234c84542a00079aab9701a6d);
+        
+
+        marker_4e1b4ba1662f45ebbb91afeba440fa9f.bindPopup(popup_4b5ab43a7e5140ea807c595406ba6fc2)
+        ;
+
+        
+    
+    
+            var marker_691de182e84e473da3eab2f41b0f9b4e = L.marker(
+                [49.9664440643018, 14.793777405581906],
+                {}
+            ).addTo(feature_group_d1cf50ddb4ad48ebb70bb61ba83629f1);
+        
+    
+        var popup_a46de7b74a324a079a29a4d152173775 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_17c61285afc44ef8b4f477f652f85e0c = $(`<div id="html_17c61285afc44ef8b4f477f652f85e0c" style="width: 100.0%; height: 100.0%;">Efficiency: 1.0 Recomended turbine direction: east</div>`)[0];
+            popup_a46de7b74a324a079a29a4d152173775.setContent(html_17c61285afc44ef8b4f477f652f85e0c);
+        
+
+        marker_691de182e84e473da3eab2f41b0f9b4e.bindPopup(popup_a46de7b74a324a079a29a4d152173775)
+        ;
+
+        
+    
+    
+            var marker_6d288a4c167643778b4a251909f5cbca = L.marker(
+                [48.20335900932622, 12.000000000000002],
+                {}
+            ).addTo(feature_group_d1cf50ddb4ad48ebb70bb61ba83629f1);
+        
+    
+        var popup_a9b3d72c397f452786f4402e5f7465cb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d07109acb8764297a528c917b436d2b8 = $(`<div id="html_d07109acb8764297a528c917b436d2b8" style="width: 100.0%; height: 100.0%;">Efficiency: 1.0 Recomended turbine direction: east</div>`)[0];
+            popup_a9b3d72c397f452786f4402e5f7465cb.setContent(html_d07109acb8764297a528c917b436d2b8);
+        
+
+        marker_6d288a4c167643778b4a251909f5cbca.bindPopup(popup_a9b3d72c397f452786f4402e5f7465cb)
+        ;
+
+        
+    
+    
+            var marker_15482e1c76244f72a33d530e4ab43607 = L.marker(
+                [49.9664440643018, 9.206222594418096],
+                {}
+            ).addTo(feature_group_d1cf50ddb4ad48ebb70bb61ba83629f1);
+        
+    
+        var popup_a207cbec01074a09bd868d21833f0137 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4a19f89de966436ea1cc34d57bd377e5 = $(`<div id="html_4a19f89de966436ea1cc34d57bd377e5" style="width: 100.0%; height: 100.0%;">Efficiency: 1.0 Recomended turbine direction: northeast</div>`)[0];
+            popup_a207cbec01074a09bd868d21833f0137.setContent(html_4a19f89de966436ea1cc34d57bd377e5);
+        
+
+        marker_15482e1c76244f72a33d530e4ab43607.bindPopup(popup_a207cbec01074a09bd868d21833f0137)
+        ;
+
+        
+    
+    
+            var marker_a4061adf621b49afba115ca1bd8ec167 = L.marker(
+                [50.88973083919791, 13.424093498212667],
+                {}
+            ).addTo(feature_group_d1cf50ddb4ad48ebb70bb61ba83629f1);
+        
+    
+        var popup_3c0355f546814fdf859144e1a9d3f6ce = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6e5de497f3124032a63d0b326912294a = $(`<div id="html_6e5de497f3124032a63d0b326912294a" style="width: 100.0%; height: 100.0%;">Efficiency: 1.0 Recomended turbine direction: northeast</div>`)[0];
+            popup_3c0355f546814fdf859144e1a9d3f6ce.setContent(html_6e5de497f3124032a63d0b326912294a);
+        
+
+        marker_a4061adf621b49afba115ca1bd8ec167.bindPopup(popup_3c0355f546814fdf859144e1a9d3f6ce)
+        ;
+
+        
+    
+    
+            var marker_719eea98bb7347f4a31fc329973c2518 = L.marker(
+                [49.09347716201027, 13.371862970573144],
+                {}
+            ).addTo(feature_group_d1cf50ddb4ad48ebb70bb61ba83629f1);
+        
+    
+        var popup_596d323864e747f08efd21e9635a55c8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0780551f4bde49c7b2b1fec93c1e2bc4 = $(`<div id="html_0780551f4bde49c7b2b1fec93c1e2bc4" style="width: 100.0%; height: 100.0%;">Efficiency: 1.0 Recomended turbine direction: east</div>`)[0];
+            popup_596d323864e747f08efd21e9635a55c8.setContent(html_0780551f4bde49c7b2b1fec93c1e2bc4);
+        
+
+        marker_719eea98bb7347f4a31fc329973c2518.bindPopup(popup_596d323864e747f08efd21e9635a55c8)
+        ;
+
+        
+    
+    
+            var marker_9553df8dcebf4649bf251b46f1ac10e3 = L.marker(
+                [49.09347716201027, 10.628137029426858],
+                {}
+            ).addTo(feature_group_d1cf50ddb4ad48ebb70bb61ba83629f1);
+        
+    
+        var popup_e71404b32cea4fa794a6b202c4537d5f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4dd147e0334848a5bae6db3eefcd9ffe = $(`<div id="html_4dd147e0334848a5bae6db3eefcd9ffe" style="width: 100.0%; height: 100.0%;">Efficiency: 1.0 Recomended turbine direction: east</div>`)[0];
+            popup_e71404b32cea4fa794a6b202c4537d5f.setContent(html_4dd147e0334848a5bae6db3eefcd9ffe);
+        
+
+        marker_9553df8dcebf4649bf251b46f1ac10e3.bindPopup(popup_e71404b32cea4fa794a6b202c4537d5f)
+        ;
+
+        
+    
+    
+            var marker_451cb3b3266b4dc9a381df3dc678cee1 = L.marker(
+                [50.88973083919791, 10.575906501787335],
+                {}
+            ).addTo(feature_group_d1cf50ddb4ad48ebb70bb61ba83629f1);
+        
+    
+        var popup_19177a203a3d4b58b3ff85416957b96f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0d5611e560fc470791946c5b4c9fe3d9 = $(`<div id="html_0d5611e560fc470791946c5b4c9fe3d9" style="width: 100.0%; height: 100.0%;">Efficiency: 1.0 Recomended turbine direction: northeast</div>`)[0];
+            popup_19177a203a3d4b58b3ff85416957b96f.setContent(html_0d5611e560fc470791946c5b4c9fe3d9);
+        
+
+        marker_451cb3b3266b4dc9a381df3dc678cee1.bindPopup(popup_19177a203a3d4b58b3ff85416957b96f)
+        ;
+
+        
+    
+    
+            var marker_8caa5d7de3b14dab9ad7a4790ff7b602 = L.marker(
+                [50.89832049533689, 12.000000000000002],
+                {}
+            ).addTo(feature_group_d1cf50ddb4ad48ebb70bb61ba83629f1);
+        
+    
+        var popup_726692df19bb4a68b7a538efc5a1dd75 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e8e72f6e836c43fe80e4197142027d85 = $(`<div id="html_e8e72f6e836c43fe80e4197142027d85" style="width: 100.0%; height: 100.0%;">Efficiency: 1.0 Recomended turbine direction: northeast</div>`)[0];
+            popup_726692df19bb4a68b7a538efc5a1dd75.setContent(html_e8e72f6e836c43fe80e4197142027d85);
+        
+
+        marker_8caa5d7de3b14dab9ad7a4790ff7b602.bindPopup(popup_726692df19bb4a68b7a538efc5a1dd75)
+        ;
+
+        
+    
+    
+            var marker_bc365b5351e243e589f34af6e782d2b3 = L.marker(
+                [49.991608305547814, 13.397375998753102],
+                {}
+            ).addTo(feature_group_d1cf50ddb4ad48ebb70bb61ba83629f1);
+        
+    
+        var popup_22bb75c426f6464aa8b69f7dbb6c6779 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_64f83ce9e0a6476085eb256c0646df93 = $(`<div id="html_64f83ce9e0a6476085eb256c0646df93" style="width: 100.0%; height: 100.0%;">Efficiency: 1.0 Recomended turbine direction: northeast</div>`)[0];
+            popup_22bb75c426f6464aa8b69f7dbb6c6779.setContent(html_64f83ce9e0a6476085eb256c0646df93);
+        
+
+        marker_bc365b5351e243e589f34af6e782d2b3.bindPopup(popup_22bb75c426f6464aa8b69f7dbb6c6779)
+        ;
+
+        
+    
+    
+            var marker_f311a50db8224c9a9bced72a49c56638 = L.marker(
+                [49.10167950466311, 12.000000000000002],
+                {}
+            ).addTo(feature_group_d1cf50ddb4ad48ebb70bb61ba83629f1);
+        
+    
+        var popup_3e5fdac36e8740659893f05e10cc5593 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_930f536fd7894f27be0f6af09a97b3da = $(`<div id="html_930f536fd7894f27be0f6af09a97b3da" style="width: 100.0%; height: 100.0%;">Efficiency: 1.0 Recomended turbine direction: northeast</div>`)[0];
+            popup_3e5fdac36e8740659893f05e10cc5593.setContent(html_930f536fd7894f27be0f6af09a97b3da);
+        
+
+        marker_f311a50db8224c9a9bced72a49c56638.bindPopup(popup_3e5fdac36e8740659893f05e10cc5593)
+        ;
+
+        
+    
+    
+            var marker_2a575f64d962454489b9ac5c24c65f00 = L.marker(
+                [49.991608305547814, 10.6026240012469],
+                {}
+            ).addTo(feature_group_d1cf50ddb4ad48ebb70bb61ba83629f1);
+        
+    
+        var popup_60603937b03c4160b7c30fe9e8a30fb1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_60f33cea2d4a4388982aab4e0883e89b = $(`<div id="html_60f33cea2d4a4388982aab4e0883e89b" style="width: 100.0%; height: 100.0%;">Efficiency: 1.0 Recomended turbine direction: northeast</div>`)[0];
+            popup_60603937b03c4160b7c30fe9e8a30fb1.setContent(html_60f33cea2d4a4388982aab4e0883e89b);
+        
+
+        marker_2a575f64d962454489b9ac5c24c65f00.bindPopup(popup_60603937b03c4160b7c30fe9e8a30fb1)
+        ;
+
+        
+    
+    
+            var marker_9789a5fd7b5242b7b54799d81b199f05 = L.marker(
+                [50.447037681719365, 12.705352685611718],
+                {}
+            ).addTo(feature_group_d1cf50ddb4ad48ebb70bb61ba83629f1);
+        
+    
+        var popup_c5540442dcb34f41b24d400c50babfc4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_969fac8e0471401c9459080da0f0c412 = $(`<div id="html_969fac8e0471401c9459080da0f0c412" style="width: 100.0%; height: 100.0%;">Efficiency: 1.0 Recomended turbine direction: northeast</div>`)[0];
+            popup_c5540442dcb34f41b24d400c50babfc4.setContent(html_969fac8e0471401c9459080da0f0c412);
+        
+
+        marker_9789a5fd7b5242b7b54799d81b199f05.bindPopup(popup_c5540442dcb34f41b24d400c50babfc4)
+        ;
+
+        
+    
+    
+            var marker_1809d3355d1940ff8075835d2cef6da8 = L.marker(
+                [49.5487655938018, 12.692295852587273],
+                {}
+            ).addTo(feature_group_d1cf50ddb4ad48ebb70bb61ba83629f1);
+        
+    
+        var popup_8ab247b59d4345e1a8df445e38b34fde = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3564ad7cc7a34863b6d552fecfe5da32 = $(`<div id="html_3564ad7cc7a34863b6d552fecfe5da32" style="width: 100.0%; height: 100.0%;">Efficiency: 1.0 Recomended turbine direction: northeast</div>`)[0];
+            popup_8ab247b59d4345e1a8df445e38b34fde.setContent(html_3564ad7cc7a34863b6d552fecfe5da32);
+        
+
+        marker_1809d3355d1940ff8075835d2cef6da8.bindPopup(popup_8ab247b59d4345e1a8df445e38b34fde)
+        ;
+
+        
+    
+    
+            var marker_3d3c4b10b0994ba78049eaaed36538ab = L.marker(
+                [49.5487655938018, 11.307704147412728],
+                {}
+            ).addTo(feature_group_d1cf50ddb4ad48ebb70bb61ba83629f1);
+        
+    
+        var popup_93c888f113774dc1b13b21bffbea118a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2d38f97ed0eb41ac80a9cc315c3dea84 = $(`<div id="html_2d38f97ed0eb41ac80a9cc315c3dea84" style="width: 100.0%; height: 100.0%;">Efficiency: 1.0 Recomended turbine direction: east</div>`)[0];
+            popup_93c888f113774dc1b13b21bffbea118a.setContent(html_2d38f97ed0eb41ac80a9cc315c3dea84);
+        
+
+        marker_3d3c4b10b0994ba78049eaaed36538ab.bindPopup(popup_93c888f113774dc1b13b21bffbea118a)
+        ;
+
+        
+    
+    
+            var marker_2f7fe06b0742467c9554f0f5ff24c908 = L.marker(
+                [50.447037681719365, 11.294647314388286],
+                {}
+            ).addTo(feature_group_d1cf50ddb4ad48ebb70bb61ba83629f1);
+        
+    
+        var popup_1ff7476f2cf84a839e3bc5a4c065c314 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_008125c7a8b74638b10c61bc01249643 = $(`<div id="html_008125c7a8b74638b10c61bc01249643" style="width: 100.0%; height: 100.0%;">Efficiency: 1.0 Recomended turbine direction: northeast</div>`)[0];
+            popup_1ff7476f2cf84a839e3bc5a4c065c314.setContent(html_008125c7a8b74638b10c61bc01249643);
+        
+
+        marker_2f7fe06b0742467c9554f0f5ff24c908.bindPopup(popup_1ff7476f2cf84a839e3bc5a4c065c314)
+        ;
+
+        
+    
+    
+            var layer_control_daf1a57029574e438906d90a45276f09 = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_2a5fb6afac724f3999e93cbd9d6d922e,
+                },
+                overlays :  {
+                    "Markers with locations" : feature_group_d1cf50ddb4ad48ebb70bb61ba83629f1,
+                },
+            };
+            L.control.layers(
+                layer_control_daf1a57029574e438906d90a45276f09.base_layers,
+                layer_control_daf1a57029574e438906d90a45276f09.overlays,
+                {"autoZIndex": true, "collapsed": true, "position": "topright"}
+            ).addTo(map_cc2b938b8ad84bee90a8e80dcf62b80f);
+        
+</script>
