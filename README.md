@@ -15,7 +15,28 @@ The purpose of the program is to simplify a search for a place to install an alt
 
 
 ## PROGRAM’S STRUCTURE AND SHORT DESCRIPTION OF MODULES, FUNCTIONS, CLASSES AND METHODS
+This project is located in the folder sustainable_energy and has the following structure:
 
+1. Module [project.py](http://project.py/) - the main module that launches flask project.
+2. Folder templates - contains the following html-pages of the web application.
+    1. about_us.html - page with information about the project.
+    2. contact_us.html - developer contacts page.
+    3. mainpage.html - the main page of the project.
+    4. solar_panels.html - a page that allows users to get data about solar panels.
+    5. wind_turbines.html - page that allows users to get data about wind turbines.
+    6. User-created maps are also stored in this folder.
+3. Static folder, which contains all the necessary styles and pictures for this project.
+4. The map_creator folder, which contains all the basic logic of the web application in the following modules
+    1. adt_realization.py - implementation of abstract data types. You can read more about them at the following link: [https://github.com/DariaMinieieva/sustainable_energy_project/wiki/3.-Домашнє-завдання-№3#_ADT](https://github.com/DariaMinieieva/sustainable_energy_project/wiki/3.-%D0%94%D0%BE%D0%BC%D0%B0%D1%88%D0%BD%D1%94-%D0%B7%D0%B0%D0%B2%D0%B4%D0%B0%D0%BD%D0%BD%D1%8F-%E2%84%963#_ADT)
+    2. [linkedlist.py](http://linkedlist.py/) - implementation of the Linked List data structure
+    3. main_code.py - the main module, which contains the following functions:
+        1. get_lat_long (central_lat, central_long, distance) - accepts the latitude and longitude of the place entered by the user and the radius in which he or she wants to place the selected alternative energy source.
+        2. map_generator (locations, start_location, max_value) - takes the input of the location, the initial location entered by the user, and the best value of efficiency. A map is created that shows the best place to set the selected alternative power source and returns the id value.
+        3. get_historical_data (latitude, longitude, energy_source) - accepts the latitude, longitude and type of alternative energy source. Returns a LinkedList with instances of the required ADT (depending on the type of alternative power source entered) with information about the past weather at that point.
+        4. get_forecast_data (latitude, longtitute, energy_source) - accepts the latitude, longitude and type of alternative energy source. Returns a LinkedList with instances of the required ADT (depending on the type of alternative energy source entered) with information about the forecast weather at that point.
+        5. calculate_efficiency (linked_lst, energy_source) - accepts LinkedList with information about the weather and the type of alternative energy source. Returns the average efficiency at a given point and for wind turbines - the recommended direction in which they should be placed.
+        6. all_average_efficiency (locations, energy_source, type_of_data) - accepts the location, the type of alternative energy source and the type of weather data (historical or forecast). Returns a dictionary with coordinates as keys and efficiency values of the selected type of alternative energy source and, for wind turbines, the recommended direction in which they should be returned. The point with the best efficiency also returns
+        7. create_txt (locations, energy_source, path) - accepts the location, the type of alternative energy source and the path to the file. Creates a text file that collects the coordinates sorted by efficiency and, for wind turbines, the recommended direction in which they should be rotated.
 
 ## SHORT INSTRUCTION
 1. To use the program, you need to follow the link to the site.
