@@ -79,7 +79,7 @@ Results in .txt format
 ![](images/turbines_txt.png)  
 
 ## TESTS’ DESCRIPTION
-
+Unit tests are created using a built-in python unittest module. They cover all of the source files and confirm that program works properly.
 
 ## INPUT AND OUTPUT DATA
 At first, the user chooses the alternative energy source that interests him most. On the page of the selected alternative source, the user is asked to enter data about his or her location: latitude, longitude;  and radius in kilometers for the furthest possible location for the installation of an alternative energy source. As a result, the user gets a map with locations within the maximum specified radius. The map also shows the efficiency of installing an alternative energy source for each point, and shows the location with the highest efficiency. If the user has chosen wind turbines, he also receives information about the best direction for the wind turbine. You can also download the results as a .txt file with the information about the efficiency of the installation in each location; and the most profitable direction of the wind turbine
