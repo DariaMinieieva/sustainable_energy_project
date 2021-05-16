@@ -42,19 +42,19 @@ Main page for solar panels/
 Interactive map with all locations and the best option chosen/
 ![](images/solar_map.png)/
 
-Results in .txt format/
-![](images/solar_panels_txt.png)/
+Results in .txt format  
+![](images/solar_panels_txt.png)  
 
-5. Usage example for wind turbines/
+5. Usage example for wind turbines  
 
-Main page for wind turbines/
-![](images/turbines.png)/
+Main page for wind turbines  
+![](images/turbines.png)  
 
-Interactive map with all locations and the best option for turbine's location and direction chosen/
-![](images/wind_map.png)/
+Interactive map with all locations and the best option for turbine's location and direction chosen  
+![](images/wind_map.png)  
 
-Results in .txt format/
-![](images/turbines_txt.png)/
+Results in .txt format  
+![](images/turbines_txt.png)  
 
 ## TESTS’ DESCRIPTION
 
