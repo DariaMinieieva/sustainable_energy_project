@@ -19,9 +19,10 @@ The purpose of the program is to simplify a search for a place to install an alt
 
 ## SHORT INSTRUCTION
 1. To use the program, you need to follow the link to the site.
-2. Then you need to choose a source of energy - solar panels or wind turbines. Click on the "NEXT" button.
-3. On the page dedicated to the selected energy source, enter the latitude, longitude and radius.
-4. Click on the “OPEN MAP” button to go to the interactive map or to “DOWNLOAD RESULTS” to get the results in .txt format.
+link: http://daria.pythonanywhere.com/
+3. Then you need to choose a source of energy - solar panels or wind turbines. Click on the "NEXT" button.
+4. On the page dedicated to the selected energy source, enter the latitude, longitude and radius.
+5. Click on the “OPEN MAP” button to go to the interactive map or to “DOWNLOAD RESULTS” to get the results in .txt format.
 
 ## Step-by-step website navigation
 
