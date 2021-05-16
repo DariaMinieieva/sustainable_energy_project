@@ -13,10 +13,10 @@ The purpose of the program is to simplify a search for a place to install an alt
 
 
 ## SHORT INSTRUCTION
-To use the program, you need to follow the link to the site.
-Then you need to choose a source of energy - solar panels or wind turbines. Click on the "NEXT" button.
-On the page dedicated to the selected energy source, enter the latitude, longitude and radius.
-Click on the “OPEN MAP” button to go to the interactive map or to “DOWNLOAD RESULTS” to get the results in .txt format.
+1. To use the program, you need to follow the link to the site.
+2. Then you need to choose a source of energy - solar panels or wind turbines. Click on the "NEXT" button.
+3. On the page dedicated to the selected energy source, enter the latitude, longitude and radius.
+4. Click on the “OPEN MAP” button to go to the interactive map or to “DOWNLOAD RESULTS” to get the results in .txt format.
 
 
 ## TESTS’ DESCRIPTION
