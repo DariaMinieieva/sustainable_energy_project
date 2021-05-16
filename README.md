@@ -29,10 +29,10 @@ The purpose of the program is to simplify a search for a place to install an alt
 ![](images/mainpage.png)
 
 2. About us page
-3. ![](images/about_us.png)
+![](images/about_us.png)
 
 3. Contact us page
-4. ![](images/contact_us.png)
+![](images/contact_us.png)
 
 4. Usage example for solar panels
 
