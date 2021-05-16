@@ -26,6 +26,7 @@ The purpose of the program is to simplify a search for a place to install an alt
 ## Step-by-step website navigation
 
 1. Home page
+![](images/mainpage.png)
 [[https://github.com/DariaMinieieva/sustainable_energy_project/blob/main/images/mainpage.png]]
 
 2. About us page
