@@ -17,7 +17,7 @@ The purpose of the program is to simplify a search for a place to install an alt
 ## PROGRAM’S STRUCTURE AND SHORT DESCRIPTION OF MODULES, FUNCTIONS, CLASSES AND METHODS
 
 
-## SHORT INSTRUCTION
+## STEP-BY-STEP INSTRUCTION
 1. To use the program, you need to follow the link to the site.
 2. Then you need to choose a source of energy - solar panels or wind turbines. Click on the "NEXT" button.
 3. On the page dedicated to the selected energy source, enter the latitude, longitude and radius.
