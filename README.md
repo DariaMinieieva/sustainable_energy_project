@@ -25,36 +25,36 @@ The purpose of the program is to simplify a search for a place to install an alt
 
 ## Step-by-step website navigation
 
-1. Home page
-![](images/mainpage.png)
+1. Home page\
+![](images/mainpage.png)\
 
-2. About us page
-![](images/about_us.png)
+2. About us page\
+![](images/about_us.png)\
 
-3. Contact us page
-![](images/contact_us.png)
+3. Contact us page\
+![](images/contact_us.png)\
 
-4. Usage example for solar panels
+4. Usage example for solar panels\
 
-Main page for solar panels
-![](images/solar_panels.png)
+Main page for solar panels\
+![](images/solar_panels.png)\
 
-Interactive map with all locations and the best option chosen
-![](images/solar_map.png)
+Interactive map with all locations and the best option chosen\
+![](images/solar_map.png)\
 
-Results in .txt format
-![](images/solar_panels_txt.png)
+Results in .txt format\
+![](images/solar_panels_txt.png)\
 
-5. Usage example for wind turbines
+5. Usage example for wind turbines\
 
-Main page for wind turbines
-![](images/turbines.png)
+Main page for wind turbines\
+![](images/turbines.png)\
 
-Interactive map with all locations and the best option for turbine's location and direction chosen
-![](images/wind_map.png)
+Interactive map with all locations and the best option for turbine's location and direction chosen\
+![](images/wind_map.png)\
 
-Results in .txt format
-![](images/turbines_txt.png)
+Results in .txt format\
+![](images/turbines_txt.png)\
 
 ## TESTS’ DESCRIPTION
 
