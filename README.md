@@ -64,11 +64,11 @@ At first, the user chooses the alternative energy source that interests him most
 
 
 
-## Credits
+## CREDITS
 1. Daria Minieieva
 2. Daryna Kosyk
 3. Olena Karaim
 4. Rostyslav Sydor
 
-## License
+## LICENSE
 Sustainable Energy Project is available under MIT license. See LICENSE for more information.
