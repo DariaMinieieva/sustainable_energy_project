@@ -17,12 +17,44 @@ The purpose of the program is to simplify a search for a place to install an alt
 ## PROGRAM’S STRUCTURE AND SHORT DESCRIPTION OF MODULES, FUNCTIONS, CLASSES AND METHODS
 
 
-## STEP-BY-STEP INSTRUCTION
+## SHORT INSTRUCTION
 1. To use the program, you need to follow the link to the site.
 2. Then you need to choose a source of energy - solar panels or wind turbines. Click on the "NEXT" button.
 3. On the page dedicated to the selected energy source, enter the latitude, longitude and radius.
 4. Click on the “OPEN MAP” button to go to the interactive map or to “DOWNLOAD RESULTS” to get the results in .txt format.
 
+## Step-by-step website navigation
+
+1. Home page
+[[https://github.com/DariaMinieieva/sustainable_energy_project/blob/main/images/mainpage.png]]
+
+2. About us page
+[[https://github.com/DariaMinieieva/sustainable_energy_project/blob/main/images/about_us.png]]
+
+3. Contact us page
+[[https://github.com/DariaMinieieva/sustainable_energy_project/blob/main/images/contact_us.png]]
+
+4. Usage example for solar panels
+
+Main page for solar panels
+[[https://github.com/DariaMinieieva/sustainable_energy_project/blob/main/images/solar_panels.png]]
+
+Interactive map with all locations and the best option chosen
+[[https://github.com/DariaMinieieva/sustainable_energy_project/blob/main/images/solar_map.png]]
+
+Results in .txt format
+[[https://github.com/DariaMinieieva/sustainable_energy_project/blob/main/images/solar_panels_txt.png]]
+
+5. Usage example for wind turbines
+
+Main page for wind turbines
+[[https://github.com/DariaMinieieva/sustainable_energy_project/blob/main/images/turbines.png]]
+
+Interactive map with all locations and the best option for turbine's location and direction chosen
+[[https://github.com/DariaMinieieva/sustainable_energy_project/blob/main/images/wind_map.png]]
+
+Results in .txt format
+[[https://github.com/DariaMinieieva/sustainable_energy_project/blob/main/images/turbines_txt.png]]
 
 ## TESTS’ DESCRIPTION
 
