@@ -1,0 +1,5 @@
+Flask==2.0.0
+folium==0.12.1
+pyowm==3.2.0
+global-land-mask==1.0.0
+tabulate==0.8.9

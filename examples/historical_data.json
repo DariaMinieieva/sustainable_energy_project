@@ -1,0 +1,773 @@
+[
+  {
+    "ref_time": "2021-03-31 00:00:00",
+    "sset_time": null,
+    "srise_time": null,
+    "clouds": 90,
+    "rain": {},
+    "snow": {},
+    "wnd": {
+      "speed": 1,
+      "deg": 230
+    },
+    "humidity": 100,
+    "pressure": {
+      "press": 1027,
+      "sea_level": null
+    },
+    "temp": {
+      "temp": 281.05,
+      "feels_like": 279.86
+    },
+    "status": "Mist",
+    "detailed_status": "mist",
+    "weather_code": 701,
+    "weather_icon_name": "50n",
+    "visibility_distance": 2100,
+    "dewpoint": 281.05,
+    "humidex": null,
+    "heat_index": null,
+    "utc_offset": null,
+    "uvi": null,
+    "precipitation_probability": null
+  },
+  {
+    "ref_time": "2021-03-31 01:00:00",
+    "sset_time": null,
+    "srise_time": null,
+    "clouds": 90,
+    "rain": {},
+    "snow": {},
+    "wnd": {
+      "speed": 1.97,
+      "deg": 255,
+      "gust": 2.42
+    },
+    "humidity": 100,
+    "pressure": {
+      "press": 1027,
+      "sea_level": null
+    },
+    "temp": {
+      "temp": 281.04,
+      "feels_like": 279.17
+    },
+    "status": "Fog",
+    "detailed_status": "fog",
+    "weather_code": 741,
+    "weather_icon_name": "50n",
+    "visibility_distance": 750,
+    "dewpoint": 281.04,
+    "humidex": null,
+    "heat_index": null,
+    "utc_offset": null,
+    "uvi": null,
+    "precipitation_probability": null
+  },
+  {
+    "ref_time": "2021-03-31 02:00:00",
+    "sset_time": null,
+    "srise_time": null,
+    "clouds": 90,
+    "rain": {},
+    "snow": {},
+    "wnd": {
+      "speed": 1,
+      "deg": 220
+    },
+    "humidity": 100,
+    "pressure": {
+      "press": 1027,
+      "sea_level": null
+    },
+    "temp": {
+      "temp": 281.05,
+      "feels_like": 279.86
+    },
+    "status": "Fog",
+    "detailed_status": "fog",
+    "weather_code": 741,
+    "weather_icon_name": "50n",
+    "visibility_distance": 750,
+    "dewpoint": 281.05,
+    "humidex": null,
+    "heat_index": null,
+    "utc_offset": null,
+    "uvi": null,
+    "precipitation_probability": null
+  },
+  {
+    "ref_time": "2021-03-31 03:00:00",
+    "sset_time": null,
+    "srise_time": null,
+    "clouds": 90,
+    "rain": {},
+    "snow": {},
+    "wnd": {
+      "speed": 1,
+      "deg": 190
+    },
+    "humidity": 100,
+    "pressure": {
+      "press": 1014,
+      "sea_level": null
+    },
+    "temp": {
+      "temp": 281.55,
+      "feels_like": 280.48
+    },
+    "status": "Fog",
+    "detailed_status": "fog",
+    "weather_code": 741,
+    "weather_icon_name": "50n",
+    "visibility_distance": 750,
+    "dewpoint": 281.55,
+    "humidex": null,
+    "heat_index": null,
+    "utc_offset": null,
+    "uvi": null,
+    "precipitation_probability": null
+  },
+  {
+    "ref_time": "2021-03-31 04:00:00",
+    "sset_time": null,
+    "srise_time": null,
+    "clouds": 90,
+    "rain": {},
+    "snow": {},
+    "wnd": {
+      "speed": 1.88,
+      "deg": 257,
+      "gust": 2.07
+    },
+    "humidity": 100,
+    "pressure": {
+      "press": 1014,
+      "sea_level": null
+    },
+    "temp": {
+      "temp": 281.55,
+      "feels_like": 279.87
+    },
+    "status": "Fog",
+    "detailed_status": "fog",
+    "weather_code": 741,
+    "weather_icon_name": "50n",
+    "visibility_distance": 400,
+    "dewpoint": 281.55,
+    "humidex": null,
+    "heat_index": null,
+    "utc_offset": null,
+    "uvi": null,
+    "precipitation_probability": null
+  },
+  {
+    "ref_time": "2021-03-31 05:00:00",
+    "sset_time": null,
+    "srise_time": null,
+    "clouds": 90,
+    "rain": {},
+    "snow": {},
+    "wnd": {
+      "speed": 1,
+      "deg": 190
+    },
+    "humidity": 100,
+    "pressure": {
+      "press": 1014,
+      "sea_level": null
+    },
+    "temp": {
+      "temp": 281.55,
+      "feels_like": 280.48
+    },
+    "status": "Fog",
+    "detailed_status": "fog",
+    "weather_code": 741,
+    "weather_icon_name": "50d",
+    "visibility_distance": 800,
+    "dewpoint": 281.55,
+    "humidex": null,
+    "heat_index": null,
+    "utc_offset": null,
+    "uvi": null,
+    "precipitation_probability": null
+  },
+  {
+    "ref_time": "2021-03-31 06:00:00",
+    "sset_time": null,
+    "srise_time": null,
+    "clouds": 90,
+    "rain": {},
+    "snow": {},
+    "wnd": {
+      "speed": 1,
+      "deg": 0
+    },
+    "humidity": 100,
+    "pressure": {
+      "press": 1027,
+      "sea_level": null
+    },
+    "temp": {
+      "temp": 282.1,
+      "feels_like": 281.17
+    },
+    "status": "Drizzle",
+    "detailed_status": "light intensity drizzle",
+    "weather_code": 300,
+    "weather_icon_name": "09d",
+    "visibility_distance": 1200,
+    "dewpoint": 282.1,
+    "humidex": null,
+    "heat_index": null,
+    "utc_offset": null,
+    "uvi": null,
+    "precipitation_probability": null
+  },
+  {
+    "ref_time": "2021-03-31 07:00:00",
+    "sset_time": null,
+    "srise_time": null,
+    "clouds": 90,
+    "rain": {},
+    "snow": {},
+    "wnd": {
+      "speed": 2,
+      "deg": 280
+    },
+    "humidity": 100,
+    "pressure": {
+      "press": 1027,
+      "sea_level": null
+    },
+    "temp": {
+      "temp": 282.1,
+      "feels_like": 280.47
+    },
+    "status": "Mist",
+    "detailed_status": "mist",
+    "weather_code": 701,
+    "weather_icon_name": "50d",
+    "visibility_distance": 3100,
+    "dewpoint": 282.1,
+    "humidex": null,
+    "heat_index": null,
+    "utc_offset": null,
+    "uvi": null,
+    "precipitation_probability": null
+  },
+  {
+    "ref_time": "2021-03-31 08:00:00",
+    "sset_time": null,
+    "srise_time": null,
+    "clouds": 90,
+    "rain": {},
+    "snow": {},
+    "wnd": {
+      "speed": 2,
+      "deg": 320
+    },
+    "humidity": 100,
+    "pressure": {
+      "press": 1027,
+      "sea_level": null
+    },
+    "temp": {
+      "temp": 283.15,
+      "feels_like": 281.8
+    },
+    "status": "Mist",
+    "detailed_status": "mist",
+    "weather_code": 701,
+    "weather_icon_name": "50d",
+    "visibility_distance": 5000,
+    "dewpoint": 283.15,
+    "humidex": null,
+    "heat_index": null,
+    "utc_offset": null,
+    "uvi": null,
+    "precipitation_probability": null
+  },
+  {
+    "ref_time": "2021-03-31 09:00:00",
+    "sset_time": null,
+    "srise_time": null,
+    "clouds": 75,
+    "rain": {},
+    "snow": {},
+    "wnd": {
+      "speed": 2,
+      "deg": 280
+    },
+    "humidity": 87,
+    "pressure": {
+      "press": 1026,
+      "sea_level": null
+    },
+    "temp": {
+      "temp": 284.99,
+      "feels_like": 283.57
+    },
+    "status": "Clouds",
+    "detailed_status": "broken clouds",
+    "weather_code": 803,
+    "weather_icon_name": "04d",
+    "visibility_distance": 9000,
+    "dewpoint": 282.9,
+    "humidex": null,
+    "heat_index": null,
+    "utc_offset": null,
+    "uvi": null,
+    "precipitation_probability": null
+  },
+  {
+    "ref_time": "2021-03-31 10:00:00",
+    "sset_time": null,
+    "srise_time": null,
+    "clouds": 75,
+    "rain": {},
+    "snow": {},
+    "wnd": {
+      "speed": 2,
+      "deg": 290
+    },
+    "humidity": 82,
+    "pressure": {
+      "press": 1026,
+      "sea_level": null
+    },
+    "temp": {
+      "temp": 286.04,
+      "feels_like": 284.66
+    },
+    "status": "Clouds",
+    "detailed_status": "broken clouds",
+    "weather_code": 803,
+    "weather_icon_name": "04d",
+    "visibility_distance": 10000,
+    "dewpoint": 283.05,
+    "humidex": null,
+    "heat_index": null,
+    "utc_offset": null,
+    "uvi": null,
+    "precipitation_probability": null
+  },
+  {
+    "ref_time": "2021-03-31 11:00:00",
+    "sset_time": null,
+    "srise_time": null,
+    "clouds": 75,
+    "rain": {},
+    "snow": {},
+    "wnd": {
+      "speed": 2,
+      "deg": 270
+    },
+    "humidity": 67,
+    "pressure": {
+      "press": 1025,
+      "sea_level": null
+    },
+    "temp": {
+      "temp": 288.15,
+      "feels_like": 286.51
+    },
+    "status": "Clouds",
+    "detailed_status": "broken clouds",
+    "weather_code": 803,
+    "weather_icon_name": "04d",
+    "visibility_distance": 10000,
+    "dewpoint": 282.08,
+    "humidex": null,
+    "heat_index": null,
+    "utc_offset": null,
+    "uvi": null,
+    "precipitation_probability": null
+  },
+  {
+    "ref_time": "2021-03-31 12:00:00",
+    "sset_time": null,
+    "srise_time": null,
+    "clouds": 75,
+    "rain": {},
+    "snow": {},
+    "wnd": {
+      "speed": 2,
+      "deg": 350
+    },
+    "humidity": 63,
+    "pressure": {
+      "press": 1025,
+      "sea_level": null
+    },
+    "temp": {
+      "temp": 288.93,
+      "feels_like": 287.25
+    },
+    "status": "Clouds",
+    "detailed_status": "broken clouds",
+    "weather_code": 803,
+    "weather_icon_name": "04d",
+    "visibility_distance": 10000,
+    "dewpoint": 281.91,
+    "humidex": null,
+    "heat_index": null,
+    "utc_offset": null,
+    "uvi": null,
+    "precipitation_probability": null
+  },
+  {
+    "ref_time": "2021-03-31 13:00:00",
+    "sset_time": null,
+    "srise_time": null,
+    "clouds": 75,
+    "rain": {},
+    "snow": {},
+    "wnd": {
+      "speed": 2,
+      "deg": 280
+    },
+    "humidity": 59,
+    "pressure": {
+      "press": 1024,
+      "sea_level": null
+    },
+    "temp": {
+      "temp": 289.99,
+      "feels_like": 288.32
+    },
+    "status": "Clouds",
+    "detailed_status": "broken clouds",
+    "weather_code": 803,
+    "weather_icon_name": "04d",
+    "visibility_distance": 10000,
+    "dewpoint": 281.94,
+    "humidex": null,
+    "heat_index": null,
+    "utc_offset": null,
+    "uvi": null,
+    "precipitation_probability": null
+  },
+  {
+    "ref_time": "2021-03-31 14:00:00",
+    "sset_time": null,
+    "srise_time": null,
+    "clouds": 75,
+    "rain": {},
+    "snow": {},
+    "wnd": {
+      "speed": 3,
+      "deg": 280
+    },
+    "humidity": 59,
+    "pressure": {
+      "press": 1023,
+      "sea_level": null
+    },
+    "temp": {
+      "temp": 289.99,
+      "feels_like": 287.62
+    },
+    "status": "Clouds",
+    "detailed_status": "broken clouds",
+    "weather_code": 803,
+    "weather_icon_name": "04d",
+    "visibility_distance": 10000,
+    "dewpoint": 281.94,
+    "humidex": null,
+    "heat_index": null,
+    "utc_offset": null,
+    "uvi": null,
+    "precipitation_probability": null
+  },
+  {
+    "ref_time": "2021-03-31 15:00:00",
+    "sset_time": null,
+    "srise_time": null,
+    "clouds": 75,
+    "rain": {},
+    "snow": {},
+    "wnd": {
+      "speed": 3,
+      "deg": 270
+    },
+    "humidity": 59,
+    "pressure": {
+      "press": 1022,
+      "sea_level": null
+    },
+    "temp": {
+      "temp": 289.99,
+      "feels_like": 287.62
+    },
+    "status": "Clouds",
+    "detailed_status": "broken clouds",
+    "weather_code": 803,
+    "weather_icon_name": "04d",
+    "visibility_distance": 10000,
+    "dewpoint": 281.94,
+    "humidex": null,
+    "heat_index": null,
+    "utc_offset": null,
+    "uvi": null,
+    "precipitation_probability": null
+  },
+  {
+    "ref_time": "2021-03-31 16:00:00",
+    "sset_time": null,
+    "srise_time": null,
+    "clouds": 75,
+    "rain": {},
+    "snow": {},
+    "wnd": {
+      "speed": 3,
+      "deg": 280
+    },
+    "humidity": 59,
+    "pressure": {
+      "press": 1022,
+      "sea_level": null
+    },
+    "temp": {
+      "temp": 289.99,
+      "feels_like": 287.62
+    },
+    "status": "Clouds",
+    "detailed_status": "broken clouds",
+    "weather_code": 803,
+    "weather_icon_name": "04d",
+    "visibility_distance": 10000,
+    "dewpoint": 281.94,
+    "humidex": null,
+    "heat_index": null,
+    "utc_offset": null,
+    "uvi": null,
+    "precipitation_probability": null
+  },
+  {
+    "ref_time": "2021-03-31 17:00:00",
+    "sset_time": null,
+    "srise_time": null,
+    "clouds": 75,
+    "rain": {},
+    "snow": {},
+    "wnd": {
+      "speed": 3,
+      "deg": 260
+    },
+    "humidity": 72,
+    "pressure": {
+      "press": 1022,
+      "sea_level": null
+    },
+    "temp": {
+      "temp": 287.1,
+      "feels_like": 284.78
+    },
+    "status": "Clouds",
+    "detailed_status": "broken clouds",
+    "weather_code": 803,
+    "weather_icon_name": "04n",
+    "visibility_distance": 10000,
+    "dewpoint": 282.14,
+    "humidex": null,
+    "heat_index": null,
+    "utc_offset": null,
+    "uvi": null,
+    "precipitation_probability": null
+  },
+  {
+    "ref_time": "2021-03-31 18:00:00",
+    "sset_time": null,
+    "srise_time": null,
+    "clouds": 0,
+    "rain": {},
+    "snow": {},
+    "wnd": {
+      "speed": 2.24,
+      "deg": 247,
+      "gust": 2.23
+    },
+    "humidity": 82,
+    "pressure": {
+      "press": 1022,
+      "sea_level": null
+    },
+    "temp": {
+      "temp": 283.93,
+      "feels_like": 281.86
+    },
+    "status": "Clear",
+    "detailed_status": "clear sky",
+    "weather_code": 800,
+    "weather_icon_name": "01n",
+    "visibility_distance": 10000,
+    "dewpoint": 280.98,
+    "humidex": null,
+    "heat_index": null,
+    "utc_offset": null,
+    "uvi": null,
+    "precipitation_probability": null
+  },
+  {
+    "ref_time": "2021-03-31 19:00:00",
+    "sset_time": null,
+    "srise_time": null,
+    "clouds": 0,
+    "rain": {},
+    "snow": {},
+    "wnd": {
+      "speed": 1,
+      "deg": 130
+    },
+    "humidity": 87,
+    "pressure": {
+      "press": 1022,
+      "sea_level": null
+    },
+    "temp": {
+      "temp": 281.15,
+      "feels_like": 279.53
+    },
+    "status": "Clear",
+    "detailed_status": "clear sky",
+    "weather_code": 800,
+    "weather_icon_name": "01n",
+    "visibility_distance": 10000,
+    "dewpoint": 279.12,
+    "humidex": null,
+    "heat_index": null,
+    "utc_offset": null,
+    "uvi": null,
+    "precipitation_probability": null
+  },
+  {
+    "ref_time": "2021-03-31 20:00:00",
+    "sset_time": null,
+    "srise_time": null,
+    "clouds": 0,
+    "rain": {},
+    "snow": {},
+    "wnd": {
+      "speed": 1,
+      "deg": 130
+    },
+    "humidity": 93,
+    "pressure": {
+      "press": 1021,
+      "sea_level": null
+    },
+    "temp": {
+      "temp": 279.15,
+      "feels_like": 277.32
+    },
+    "status": "Clear",
+    "detailed_status": "clear sky",
+    "weather_code": 800,
+    "weather_icon_name": "01n",
+    "visibility_distance": 10000,
+    "dewpoint": 278.11,
+    "humidex": null,
+    "heat_index": null,
+    "utc_offset": null,
+    "uvi": null,
+    "precipitation_probability": null
+  },
+  {
+    "ref_time": "2021-03-31 21:00:00",
+    "sset_time": null,
+    "srise_time": null,
+    "clouds": 50,
+    "rain": {},
+    "snow": {},
+    "wnd": {
+      "speed": 1,
+      "deg": 130
+    },
+    "humidity": 93,
+    "pressure": {
+      "press": 1021,
+      "sea_level": null
+    },
+    "temp": {
+      "temp": 278.15,
+      "feels_like": 276.12
+    },
+    "status": "Clear",
+    "detailed_status": "clear sky",
+    "weather_code": 800,
+    "weather_icon_name": "01n",
+    "visibility_distance": 7000,
+    "dewpoint": 277.11,
+    "humidex": null,
+    "heat_index": null,
+    "utc_offset": null,
+    "uvi": null,
+    "precipitation_probability": null
+  },
+  {
+    "ref_time": "2021-03-31 22:00:00",
+    "sset_time": null,
+    "srise_time": null,
+    "clouds": 60,
+    "rain": {},
+    "snow": {},
+    "wnd": {
+      "speed": 1,
+      "deg": 160
+    },
+    "humidity": 100,
+    "pressure": {
+      "press": 1021,
+      "sea_level": null
+    },
+    "temp": {
+      "temp": 278.15,
+      "feels_like": 276.33
+    },
+    "status": "Clouds",
+    "detailed_status": "broken clouds",
+    "weather_code": 803,
+    "weather_icon_name": "04n",
+    "visibility_distance": 9000,
+    "dewpoint": 278.15,
+    "humidex": null,
+    "heat_index": null,
+    "utc_offset": null,
+    "uvi": null,
+    "precipitation_probability": null
+  },
+  {
+    "ref_time": "2021-03-31 23:00:00",
+    "sset_time": null,
+    "srise_time": null,
+    "clouds": 75,
+    "rain": {},
+    "snow": {},
+    "wnd": {
+      "speed": 1,
+      "deg": 170
+    },
+    "humidity": 100,
+    "pressure": {
+      "press": 1020,
+      "sea_level": null
+    },
+    "temp": {
+      "temp": 279.15,
+      "feels_like": 277.53
+    },
+    "status": "Clouds",
+    "detailed_status": "broken clouds",
+    "weather_code": 803,
+    "weather_icon_name": "04n",
+    "visibility_distance": 10000,
+    "dewpoint": 279.15,
+    "humidex": null,
+    "heat_index": null,
+    "utc_offset": null,
+    "uvi": null,
+    "precipitation_probability": null
+  }
+]

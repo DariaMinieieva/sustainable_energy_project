@@ -1,0 +1,10 @@
+Status:
+clear sky
+Wind speed:
+1
+Wind degree:
+0
+Sunrise time:
+2021-04-03 03:56:14+00:00
+Sunset time:
+2021-04-03 16:57:45+00:00

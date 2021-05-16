@@ -1,0 +1,54 @@
+<!doctype html>
+
+<html>
+
+<head>
+
+    <title>Wind Turbines</title>
+    <link href="static\styles\style_wind_turbines.css?v=1.0" rel="stylesheet" type="text/css">
+
+</head>
+
+
+<body>
+
+    <div class="main-part">
+
+        <div class="navbar">
+            <a href='/'>
+                <div class="navbar-button">HOME</div>
+            </a>
+            <a href='about_us.html'>
+                <div class="navbar-button">ABOUT US</div>
+            </a>
+            <a href='contact_us.html'>
+                <div class="navbar-button">CONTACT US</div>
+            </a>
+        </div>
+
+        <div class="logo">
+            Wind Turbines
+        </div>
+        <form action="/redirect.html" , method="POST" , class="forms">
+            <div class="forms">
+                <input class='input-form' type="latitude" placeholder="Please, enter latitude:" name="latitude"
+                    required>
+                <input class='input-form' type="longtitude" placeholder="Please, enter longtitude:" name="longtitude"
+                    required>
+                <input class='input-form' type="distance" placeholder="Please, enter distance in km:" name="distance"
+                    required>
+                <input type="hidden" value="wind" name="type">
+            </div>
+
+            <div class="text-box">
+                <input type="submit" class="btn" value="OPEN MAP" name="action">
+                <input type="submit" class="btn" value="DOWNLOAD RESULTS" name="action">
+            </div>
+        </form>
+
+    </div>
+
+
+</body>
+
+</html>
