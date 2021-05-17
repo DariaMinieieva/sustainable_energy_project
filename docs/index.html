@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html><head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/">
+
+  <title>Sustainable energy’s documentation — sustainable-energy 1.0 documentation</title>
+  <link rel="stylesheet" type="text/css" href="_static/pygments.css">
+  <link rel="stylesheet" type="text/css" href="_static/alabaster.css">
+  <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+  <script src="_static/jquery.js"></script>
+  <script src="_static/underscore.js"></script>
+  <script src="_static/doctools.js"></script>
+  <link rel="index" title="Index" href="genindex.html">
+  <link rel="search" title="Search" href="search.html">
+ 
+<link rel="stylesheet" href="_static/custom.css" type="text/css">
+
+
+<meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9">
+
+</head><body>
+
+
+  <div class="document">
+    <div class="documentwrapper">
+      <div class="bodywrapper">
+        
+
+        <div class="body" role="main">
+          
+<section id="welcome-to-sustainable-energy-s-documentation">
+<h1>Sustainable energy project’s documentation<a class="headerlink" href="#welcome-to-sustainable-energy-s-documentation" title="Permalink to this headline">¶</a></h1>
+<p><br></p>
+<div class="toctree-wrapper compound">
+</div>
+</section>
+<section id="module-map_creator.main_code">
+<span id="main-code"></span><h1>Main<a class="headerlink" href="#module-map_creator.main_code" title="Permalink to this headline">¶</a></h1>
+<dl class="py function">
+<dt class="sig sig-object py" id="map_creator.main_code.all_average_efficiency">
+<span class="sig-prename descclassname"><span class="pre">map_creator.main_code.</span></span><span class="sig-name descname"><span class="pre">all_average_efficiency</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">locations</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">list</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">energy_source</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">type_of_data</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#map_creator.main_code.all_average_efficiency" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return tuple with a dictionary of latitudes and longtitudes as keys and efficiency as values</p>
+<p></p></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="map_creator.main_code.calculate_efficiency">
+<span class="sig-prename descclassname"><span class="pre">map_creator.main_code.</span></span><span class="sig-name descname"><span class="pre">calculate_efficiency</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">linked_lst</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><a class="reference internal" href="#map_creator.linkedlist.LinkedList" title="map_creator.linkedlist.LinkedList"><span class="pre">map_creator.linkedlist.LinkedList</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">energy_source</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span> → <span class="pre">tuple</span><a class="headerlink" href="#map_creator.main_code.calculate_efficiency" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return tuple with average efficiency rate and direction of wind turbine(optional)</p>
+<p></p></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="map_creator.main_code.create_txt">
+<span class="sig-prename descclassname"><span class="pre">map_creator.main_code.</span></span><span class="sig-name descname"><span class="pre">create_txt</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">locations</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">tuple</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">energy_source</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">path</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#map_creator.main_code.create_txt" title="Permalink to this definition">¶</a></dt>
+<dd><p>Create a txt file with a table of all points and their efficiency as a table</p>
+<p></p></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="map_creator.main_code.get_forecast_data">
+<span class="sig-prename descclassname"><span class="pre">map_creator.main_code.</span></span><span class="sig-name descname"><span class="pre">get_forecast_data</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">latitude</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">float</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">longtitute</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">float</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">energy_source</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span> → <a class="reference internal" href="#map_creator.linkedlist.LinkedList" title="map_creator.linkedlist.LinkedList"><span class="pre">map_creator.linkedlist.LinkedList</span></a><a class="headerlink" href="#map_creator.main_code.get_forecast_data" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get forecast weather data for the next seven days</p>
+<p></p></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="map_creator.main_code.get_historical_data">
+<span class="sig-prename descclassname"><span class="pre">map_creator.main_code.</span></span><span class="sig-name descname"><span class="pre">get_historical_data</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">latitude</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">float</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">longitude</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">float</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">energy_source</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span> → <a class="reference internal" href="#map_creator.linkedlist.LinkedList" title="map_creator.linkedlist.LinkedList"><span class="pre">map_creator.linkedlist.LinkedList</span></a><a class="headerlink" href="#map_creator.main_code.get_historical_data" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get historical weather data for the last three days</p>
+<p></p></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="map_creator.main_code.get_lat_long">
+<span class="sig-prename descclassname"><span class="pre">map_creator.main_code.</span></span><span class="sig-name descname"><span class="pre">get_lat_long</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">central_lat</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">float</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">central_long</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">float</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">distance</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">int</span></span></em><span class="sig-paren">)</span> → <span class="pre">list</span><a class="headerlink" href="#map_creator.main_code.get_lat_long" title="Permalink to this definition">¶</a></dt>
+<dd><p>Create list of tuples with latitude and longtitude in the given area</p>
+<p></p></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="map_creator.main_code.map_generator">
+<span class="sig-prename descclassname"><span class="pre">map_creator.main_code.</span></span><span class="sig-name descname"><span class="pre">map_generator</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">locations</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">list</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">start_location</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">tuple</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">max_value</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">list</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#map_creator.main_code.map_generator" title="Permalink to this definition">¶</a></dt>
+<dd><p>Generates map with markers</p>
+</dd></dl>
+
+<p><br>
+<br>
+<br></p>
+</section>
+<section id="module-map_creator.adt_realization">
+<span id="adt"></span><h1>ADT<a class="headerlink" href="#module-map_creator.adt_realization" title="Permalink to this headline">¶</a></h1>
+<p>This class contains realization of an ADT</p>
+<dl class="py class">
+<dt class="sig sig-object py" id="map_creator.adt_realization.SolarPanels">
+<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">map_creator.adt_realization.</span></span><span class="sig-name descname"><span class="pre">SolarPanels</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">sunset</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">sunrise</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">clouds</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">snow</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">temperature</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">uv</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#map_creator.adt_realization.SolarPanels" title="Permalink to this definition">¶</a></dt>
+<dd><p>Сlass storing data for solal panels</p>
+<dl class="py method">
+<dt class="sig sig-object py" id="map_creator.adt_realization.SolarPanels.calculate_power">
+<span class="sig-name descname"><span class="pre">calculate_power</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">watts</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">250</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#map_creator.adt_realization.SolarPanels.calculate_power" title="Permalink to this definition">¶</a></dt>
+<dd><p>Calculate power of a solar panel in kilowatts</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="map_creator.adt_realization.SolarPanels.get_clouds">
+<span class="sig-name descname"><span class="pre">get_clouds</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#map_creator.adt_realization.SolarPanels.get_clouds" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get clouds value</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="map_creator.adt_realization.SolarPanels.get_power">
+<span class="sig-name descname"><span class="pre">get_power</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#map_creator.adt_realization.SolarPanels.get_power" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get power value</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="map_creator.adt_realization.SolarPanels.get_snow">
+<span class="sig-name descname"><span class="pre">get_snow</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#map_creator.adt_realization.SolarPanels.get_snow" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get snow value</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="map_creator.adt_realization.SolarPanels.get_sunrise">
+<span class="sig-name descname"><span class="pre">get_sunrise</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#map_creator.adt_realization.SolarPanels.get_sunrise" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get sunrise hour</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="map_creator.adt_realization.SolarPanels.get_sunset">
+<span class="sig-name descname"><span class="pre">get_sunset</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#map_creator.adt_realization.SolarPanels.get_sunset" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get sunset hour</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="map_creator.adt_realization.SolarPanels.get_temperature">
+<span class="sig-name descname"><span class="pre">get_temperature</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#map_creator.adt_realization.SolarPanels.get_temperature" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get temperature value</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="map_creator.adt_realization.SolarPanels.get_uv">
+<span class="sig-name descname"><span class="pre">get_uv</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#map_creator.adt_realization.SolarPanels.get_uv" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get ultraviolet radiation value</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="map_creator.adt_realization.SolarPanels.set_clouds">
+<span class="sig-name descname"><span class="pre">set_clouds</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">value</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#map_creator.adt_realization.SolarPanels.set_clouds" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set clouds value</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="map_creator.adt_realization.SolarPanels.set_snow">
+<span class="sig-name descname"><span class="pre">set_snow</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">value</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#map_creator.adt_realization.SolarPanels.set_snow" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set snow value</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="map_creator.adt_realization.SolarPanels.set_sunrise">
+<span class="sig-name descname"><span class="pre">set_sunrise</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">value</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#map_creator.adt_realization.SolarPanels.set_sunrise" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set sunrise hour</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="map_creator.adt_realization.SolarPanels.set_sunset">
+<span class="sig-name descname"><span class="pre">set_sunset</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">value</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#map_creator.adt_realization.SolarPanels.set_sunset" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set sunset hour</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="map_creator.adt_realization.SolarPanels.set_temperature">
+<span class="sig-name descname"><span class="pre">set_temperature</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">value</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#map_creator.adt_realization.SolarPanels.set_temperature" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set temperature value</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="map_creator.adt_realization.SolarPanels.set_uv">
+<span class="sig-name descname"><span class="pre">set_uv</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">value</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#map_creator.adt_realization.SolarPanels.set_uv" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set ultraviolet radiation value</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="map_creator.adt_realization.SolarPanels.temperature_impact">
+<span class="sig-name descname"><span class="pre">temperature_impact</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#map_creator.adt_realization.SolarPanels.temperature_impact" title="Permalink to this definition">¶</a></dt>
+<dd><p>If temperature is higher than 25 degrees celcius(77 Fahrenheit)
+its efficiency decreases by 1 % every degree and increase
+if temperature is below that point</p>
+<p></p></dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="map_creator.adt_realization.WindTurbine">
+<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">map_creator.adt_realization.</span></span><span class="sig-name descname"><span class="pre">WindTurbine</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">wnd_speed</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">wnd_degree</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#map_creator.adt_realization.WindTurbine" title="Permalink to this definition">¶</a></dt>
+<dd><p>Class storing data for wind turbines</p>
+<dl class="py method">
+<dt class="sig sig-object py" id="map_creator.adt_realization.WindTurbine.direction_to_rotate">
+<span class="sig-name descname"><span class="pre">direction_to_rotate</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#map_creator.adt_realization.WindTurbine.direction_to_rotate" title="Permalink to this definition">¶</a></dt>
+<dd><p>Determine the direction to put a face of turbine</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="map_creator.adt_realization.WindTurbine.get_wnd_degree">
+<span class="sig-name descname"><span class="pre">get_wnd_degree</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#map_creator.adt_realization.WindTurbine.get_wnd_degree" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get wind direction</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="map_creator.adt_realization.WindTurbine.get_wnd_speed">
+<span class="sig-name descname"><span class="pre">get_wnd_speed</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#map_creator.adt_realization.WindTurbine.get_wnd_speed" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get wind speed</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="map_creator.adt_realization.WindTurbine.set_wnd_degree">
+<span class="sig-name descname"><span class="pre">set_wnd_degree</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">value</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#map_creator.adt_realization.WindTurbine.set_wnd_degree" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set wind direction</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="map_creator.adt_realization.WindTurbine.set_wnd_speed">
+<span class="sig-name descname"><span class="pre">set_wnd_speed</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">value</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#map_creator.adt_realization.WindTurbine.set_wnd_speed" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set wind speed</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="map_creator.adt_realization.WindTurbine.wind_efficiency">
+<span class="sig-name descname"><span class="pre">wind_efficiency</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#map_creator.adt_realization.WindTurbine.wind_efficiency" title="Permalink to this definition">¶</a></dt>
+<dd><p>-1 - not enough speed,
+0 - minimum required speed,
+1 - optimal speed,
+2 - high performance speed,
+3 - maximum speed, wind turbine is uneffective</p>
+</dd></dl>
+
+</dd></dl>
+
+<p><br>
+<br>
+<br></p>
+</section>
+<section id="module-map_creator.linkedlist">
+<span id="linked-list"></span><h1>Linked List<a class="headerlink" href="#module-map_creator.linkedlist" title="Permalink to this headline">¶</a></h1>
+<p>Linked list implementation</p>
+<dl class="py class">
+<dt class="sig sig-object py" id="map_creator.linkedlist.LinkedList">
+<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">map_creator.linkedlist.</span></span><span class="sig-name descname"><span class="pre">LinkedList</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">head</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="#map_creator.linkedlist.Node" title="map_creator.linkedlist.Node"><span class="pre">map_creator.linkedlist.Node</span></a><span class="p"><span class="pre">]</span></span></span> <span class="o"><span class="pre">=</span></span> <span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#map_creator.linkedlist.LinkedList" title="Permalink to this definition">¶</a></dt>
+<dd><p>Linked list class</p>
+<dl class="py method">
+<dt class="sig sig-object py" id="map_creator.linkedlist.LinkedList.add">
+<span class="sig-name descname"><span class="pre">add</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">data</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#map_creator.linkedlist.LinkedList.add" title="Permalink to this definition">¶</a></dt>
+<dd><p>Adds element to the end of the list</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="map_creator.linkedlist.LinkedList.pop">
+<span class="sig-name descname"><span class="pre">pop</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#map_creator.linkedlist.LinkedList.pop" title="Permalink to this definition">¶</a></dt>
+<dd><p>Removes element from the end of the list</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="map_creator.linkedlist.LinkedList.remove">
+<span class="sig-name descname"><span class="pre">remove</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">index</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#map_creator.linkedlist.LinkedList.remove" title="Permalink to this definition">¶</a></dt>
+<dd><p>Removes element with index</p>
+<p></p></dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="map_creator.linkedlist.Node">
+<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">map_creator.linkedlist.</span></span><span class="sig-name descname"><span class="pre">Node</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">data</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#map_creator.linkedlist.Node" title="Permalink to this definition">¶</a></dt>
+<dd><p>Linked list node</p>
+</dd></dl>
+
+<p>
+
+<br></p>
+</section>
+<section id="indices-and-tables">
+<h1>Indices and tables<a class="headerlink" href="#indices-and-tables" title="Permalink to this headline">¶</a></h1>
+<ul class="simple">
+<li><p><a class="reference internal" href="genindex.html"><span class="std std-ref">Index</span></a></p></li>
+<li><p><a class="reference internal" href="py-modindex.html"><span class="std std-ref">Module Index</span></a></p></li>
+<li><p><a class="reference internal" href="search.html"><span class="std std-ref">Search Page</span></a></p></li>
+</ul>
+</section>
+
+
+        </div>
+        
+      </div>
+    </div>
+    <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+      <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="#">Sustainable energy project</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+<li><a href="#">Documentation overview</a><ul>
+</ul></li>
+</ul>
+</div>
+<div id="searchbox" style="" role="search">
+<h3 id="searchlabel">Quick search</h3>
+  <div class="searchformwrapper">
+  <form class="search" action="search.html" method="get">
+    <input type="text" name="q" aria-labelledby="searchlabel">
+    <input type="submit" value="Go">
+  </form>
+  </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+      </div>
+    </div>
+    <div class="clearer"></div>
+  </div>
+  <div class="footer">
+    ©2021, UCU.
+    
+    |
+    Powered by <a href="http://sphinx-doc.org/">Sphinx 4.0.1</a>
+    &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+
+  </div>
+
+  
+
+  
+
+</body></html>
